@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>img Filters</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+
+    <div class="imgs-container">
+        <div id="img-container-raw">
+            <h1 id="img-description-title">Raw Image</h1>
+            <canvas id="raw-img-canvas"></canvas>
+            <div>
+            <p>
+                <b>Image Upload: </b> <input type="file" multiple="false" id="img-upload" accept="image/*" onchange="photoUpload()">
+            </p>
+            </div>
+        </div>
+        <div id="img-container-filtered">
+            <h1 id="img-description-title">Filtered Image</h1>
+            <canvas id="filtered-img-canvas"></canvas>
+        </div>
+    </div>
+    <div class="filters">
+        <div id="rese+
+        t-button">
+            <h2 id="filter-title">Filters</h2>
+            <input type="button" value="Reset Filters" onclick="resetButton()">
+        </div>
+        <div id="filter-buttons">
+            <p>
+                <input type="button" class="button" id="grayscale" value="Grayscale" onclick="grayscaleButton()">
+                <input type="button" class="button" id="red" value="Red" onclick="redButton()">
+                <input type="button" class="button" id="rainbow" value="Rainbow" onclick="rainbowButton()">
+                <input type="button" class="button" id="blur" value="Blur" onclick="blurButton()">
+            </p>
+            <p>
+                <input type="button" class="button" id="swap-red-green" value="Swap Red And Green"
+                    onclick="redgreenswapButton()">
+                <input type="button" class="button" id="swap-red-green" value="Swap Red And Blue"
+                    onclick="redblueswapButton()">
+                <input type="button" class="button" id="swap-red-green" value="Swap Green And Blue"
+                    onclick="greenblueswapButton()">
+            </p>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="scripts.js"></script>
+    <script type="text/javascript" src="../Libraries/cs101.js"></script>
+    <script type="text/javascript" src="../Libraries/SimpleImage.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+body {
+    height: auto;
+    width: 1000px;
+    margin: auto;
+    background-color: rgb(203, 207, 207);
+}
+
+.imgs-container {
+    margin: auto;
+}
+
+#img-container-raw {
+    text-align: center;
+    width: 46%;
+    padding: 20px;
+    padding-top: 0%;
+    float: left;
+}
+
+
+#img-container-filtered {
+    text-align: center;
+    width: 46%;
+    padding: 20px;
+    padding-top: 0%;
+    float: right;
+
+}
+
+#img-description-title {
+    text-align: center;
+}
+
+canvas {
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+}
+
+
+.filters {
+    clear: both;
+    text-align: center;
+}
+
+#reset-button {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+#filter-buttons {
+    margin: 10px;
+}
+
+.button {
+    margin: 10px;
+    margin-bottom: 1px;
+    margin-top: 1px;
+}
