@@ -1,4 +1,4 @@
-## Image Filters
+# Image Filters
 A simple html javascript project I made to apply various filters to user uploaded images
 
 ## Motivation
