@@ -3,3 +3,6 @@ A simple html javascript project I made that allows users to apply various filte
 
 ### Screenshots
 https://i.imgur.com/E28VNt9.png
+
+### Project Date
+March 2020
